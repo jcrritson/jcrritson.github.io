@@ -1,0 +1,114 @@
+/* General */
+    html{
+        background-color: black;
+        color: white;
+    }
+    h1{
+        text-align: center;
+    }
+/* Head */
+    #HeaderDiv{
+        margin: 1%;
+        padding: 0;
+        font-size: 1.5em;
+    }
+    header{
+        display: flex;
+    }
+    #name{
+        width: 74%;
+    }
+    #colourButtons{
+        width: 24%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: right;
+    }
+    #colourButtons > input{
+        width: 100%;
+        height: 33%;
+    }
+/* Body */
+    /* Navigation */
+        #Navigation{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 98%;
+            padding: 1em;
+            justify-content: center;
+            font-size: 1em;
+            margin: 0 1% 0 1%;
+            padding: 0;
+            border: 1px solid lightblue;
+        }
+        #Navigation > a{
+            text-decoration: none;
+            padding: 1em 4em 1em 4em;
+        }
+        #Navigation > a:link, a:visited{
+            color: lightblue;
+        }
+        #Navigation > a:hover{
+            color: purple;
+        }
+    /* About Me */
+        #AboutMe{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        #AboutMe > img{
+            width: 25%;
+            height: auto;
+            border: 1px solid lightblue;
+            padding: 1%;
+            margin: 2% 2% 2% 1%;
+        }
+        #bodyText{
+            border: 1px solid lightblue;
+            width: 63.5%;
+            margin: 2% 1% 2% 2%;
+            padding: 1.5%;
+        }
+        #bodyText > h1 {
+            margin: 1% 0 1% 0;
+            font-size: 3em;
+        }
+        #bodyText > p{
+            margin: 1%;
+            font-size: 1.25em;
+        }
+        #bodyText > ol{
+            margin: 0.5% 1% 0.5% 1%;
+            font-size: 1.25em;   
+        }
+
+/* foot */
+    footer{
+        display: flex;
+        width: 94%;
+        margin: 2% 1% 2% 1%;
+        padding: 2%;
+        justify-content: center;
+        border: 1px solid lightblue;
+    }
+    label{
+        color: lightblue;
+    }
+    #input{
+        margin: 4%;
+    }
+    #input > input{
+        width: 90%;
+    }
+    #submit{
+        margin: 4%;
+    }
+    #submitButton{
+        width: 50%;
+    }
+    #isCorrect{
+        width: 100%;
+        padding: 4%;
+    }

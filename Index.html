@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+    <link href="Index.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <title>Jacob Ritson</title>
+    </head>
+    <!-- Start Header Div-->
+    <div id="HeaderDiv">
+        <header>
+            <div id="name">
+                <h1>Jacob Ritson</h1>
+            </div>
+            <div id="colourButtons">
+                <input type="button" id="colourButtonOne" value="Light Mode">
+                <input type="button" id="colourButtonTwo" value="Dark Mode">
+                <input type="button" id="colourButtonThree" value="Superdark Mode">
+            </div>
+        </header>
+    </div>
+    <!-- End Header Div-->
+    <!-- Start Body Div-->
+    <body>
+        <!-- Start Navigation-->
+        <div id="Navigation">
+            <a id="index" href="Index.html">About Me</a>
+            <a id="experience" href="Experience.html">Experience</a>
+            <a id="education" href="Education.html">Education</a>
+        </div>
+        <!-- End Navigation-->
+        <!-- Start About Me -->
+        <div id="AboutMe">
+                <img id="image" src="StickFigure.jpg" alt="Image of a smiling stick figure" width="150" height="250">
+
+                <div id="bodyText">
+                    <h1>About Me</h1>
+
+                    <p>
+                        I'm currently 19 and attending Dalhousie University for computer science.
+                    </p>
+                    <p>
+                        Outside of university most of my time is spent:
+                    </p>
+                    <ol>
+                        <li>Playing video games like</li>
+                        <ul>
+                            <li>Destiny 2</li>
+                            <li>Minecraft</li>
+                        </ul>
+                        <li>Watching movies</li>
+                        <li>Working</li>
+                    </ol>
+                </div>
+        </div>
+        <!-- End About Me -->
+    </body>
+    <!-- End Body div-->
+    <!-- Start Footer -->
+    <footer id="footer">
+        <form>
+            <h1>Contact Me</h1>
+            <div id="input">
+                <label for="email" id="emailLabel">Email:</label><br>
+                <input type="text" id="email" value=""><br>
+            </div>
+            <div id="input">
+                <label for="phone" id="phoneLabel">Phone:</label><br>
+                <input type="text" id="phone" value=""><br>
+            </div>
+            <div id="input">
+                <label for="contactName" id="contactNameLabel">Name:</label><br>
+                <input type="text" id="contactName" value=""><br>
+            </div>
+            <div id="input">
+                <label for="company" id="companyLabel">Company:</label><br>
+                <input type="text" id="company" value=""><br>
+            </div>
+            <div id="input">
+                <label for="info" id="infoLabel">Information:</label><br>
+                <input type="text" id="info" value=""><br>
+            </div>
+            <div id="submit">
+                <input type="submit" id="submitButton" value="Submit">
+            </div>
+            <div id="isCorrect"></div>
+        </form>
+    </footer>
+    <!-- End Footer -->
+</html>
+<script src="Script.js"></script>
